@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post" style="text-align:center;">
+  <h1>{{ page.title }}</h1>
+    <div style="text-align:justify;" class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date" style="text-align:left;">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+</article>
+
+
+
+
+
+<!-- My own twitter button
+  <div style="text-align:left;">
+    <a  href="https://twitter.com/intent/tweet?text={{ page.title }}&via=solwhitehorn&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&hashtags={{page.tags | Uppercase | join: ', '}}">
+    <i class="fa fa-twitter share-button"> 🐦Tweet this article!</i>
+    </a>
+  </div>
+--> 

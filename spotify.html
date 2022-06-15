@@ -1,0 +1,19 @@
+---
+layout: default
+title: Spotify
+permalink: /spotify/
+---
+
+Something to listen to:
+<center>
+<div class="posts">
+  {% for post in site.categories.spotify %}
+  <article class="post">
+      <span>{{ post.title }}</span>
+      <center>
+      {{post.content}}
+      </center>
+  </article>
+  {% endfor %}
+</div>
+</center>

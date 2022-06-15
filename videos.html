@@ -1,0 +1,18 @@
+---
+layout: default
+title: Videos
+permalink: /videos/
+---
+
+<center>
+<div class="posts">
+  {% for post in site.categories.videos %}
+  <article class="post">
+      <span class="date">{{ post.date | date: "%F"  }}</span><br>
+      <center>
+      {{post.content}}
+      </center>
+  </article>
+  {% endfor %}
+</div>
+</center>
