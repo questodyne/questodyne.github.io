@@ -20,12 +20,12 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $black;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 860px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
 }
@@ -272,10 +272,10 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 200px;
+  margin-top: 300px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #F8F8FF;
+  background-color: #ffffff;
 }
 
 footer {
